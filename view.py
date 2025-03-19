@@ -3,7 +3,6 @@ import flet as ft
 class View(object):
     def __init__(self, page):
         self._page = page
-        self._page.bgcolor = ft.Colors.AMBER_50
         self._page.title = "TdP 2024 - Indovina il Numero"
         self._page.horizontal_alignment = 'CENTER'
         self._titolo = None
